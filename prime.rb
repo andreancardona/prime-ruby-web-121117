@@ -6,3 +6,4 @@ def prime? (num)
   else (num % random) !=0
     return true
  end
+end
