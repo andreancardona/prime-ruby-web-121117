@@ -5,4 +5,4 @@
         if number % i == 0
           is_prime = false
       end
-    end
+    
