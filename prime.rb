@@ -1,9 +1,19 @@
 # Add  code here!
 def prime? (num)
-  for random in 2..(num - 1)
-   if (num % random) == 0
-    return false
-   end
+  is_prime = true
+  for i in 2..num-1
+    if num % i == 0
+      is_prime = false
+    end
   end
-  true
-  end
+
+
+
+
+
+
+
+
+
+
+
