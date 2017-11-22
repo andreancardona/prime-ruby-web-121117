@@ -1,11 +1,10 @@
 # Add  code here!
 def prime?(x)
-  if x >= 2:
-    for n in range(2, x, 1):
-        if (x % n == 0):
-            return False
-            break
-    else:
-        return True
-else:
-    return False
+
+  def prime?(nuber)
+  return false if number < 2
+     (2..Math.sqrt(number)).each do |num|
+      return false if number % num == 0
+    end
+    true
+  end
