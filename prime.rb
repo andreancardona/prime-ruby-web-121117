@@ -10,4 +10,3 @@
           return true # this means the number is prime
         end
       
-  
