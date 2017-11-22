@@ -1,6 +1,11 @@
 # Add  code here!
-def prime?(n)
-  def prime(n)
-   (2..n/2).none?{|i| n % i == 0}
- end
-end
+def prime?(x)
+  if x >= 2:
+    for n in range(2, x, 1):
+        if (x % n == 0):
+            return False
+            break
+    else:
+        return True
+else:
+    return False
