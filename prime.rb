@@ -4,4 +4,3 @@ def prime? (num)
    if (num % random) == 0
     return true
    end
-
