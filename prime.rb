@@ -1,19 +1,8 @@
 # Add  code here!
 def prime? (num)
-  is_prime = true
   for i in 2..num-1
+    return true
     if num % i == 0
-      is_prime = false
+     return false
     end
   end
-
-
-
-
-
-
-
-
-
-
-
