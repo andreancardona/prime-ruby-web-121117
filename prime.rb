@@ -1,9 +1,16 @@
 # Add  code here!
-def prime? (num)
-  for random in 2..(num - 1)
-   if (num % random) == 0
-    return false
-   end
- end
-  true
+def prime?(number_to_test)
+ return false if number_to_test < 2
+   (2..Math.sqrt(number_to_test)).each do |num|
+    return false if number_to_test % num == 0
   end
+  true
+ end 
+
+
+
+
+
+
+
+
