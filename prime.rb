@@ -4,10 +4,6 @@ def prime? (num)
    if (num % random) == 0
     return false
   else (num % random) !=0
-    return true 
-    if  
-   
-   end
+    return true
  end
-  true
-  end
+
