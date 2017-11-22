@@ -1,9 +1,9 @@
 # Add  code here!
 def prime? (num)
-  for d in 2..(num - 1)
-   if (num % d) == 0
-    return false
+  for random in 2..(num - 1)
+   if (num % random) == 0
+    return true
    end
   end
-  true
+  false
   end
