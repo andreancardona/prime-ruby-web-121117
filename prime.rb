@@ -5,12 +5,4 @@ def prime?(number_to_test)
     return false if number_to_test % num == 0
   end
   true
- end 
-
-
-
-
-
-
-
-
+ end
